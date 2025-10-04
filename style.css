@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+/* Header */
+header {
+    background-image: url('eguadian.jpg');
+    background-size: cover;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+    height: 85vh;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.2s;
+    
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(8, 238, 242);
+    
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.feature {
+    width: 300px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 0px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature h2 {
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+/* Add this to your style.css file */
+
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Adds space between the two member profiles */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    margin-top: 20px;
+}
+
+.team-member {
+    background-color: #f9f9f9; /* A light background for each profile */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Fixed width for each profile */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: #555;
+}
